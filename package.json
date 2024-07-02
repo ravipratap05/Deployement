@@ -214,7 +214,7 @@
     "mime-types": "^2.1.35",
     "minimatch": "^3.1.2",
     "minipass": "^7.1.2",
-    "mongodb": "^6.6.2",
+    "mongodb": "^6.8.0",
     "mongodb-connection-string-url": "^3.0.1",
     "mongoose": "^8.4.4",
     "mpath": "^0.9.0",
@@ -366,7 +366,6 @@
     "yaml": "^2.4.5",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
