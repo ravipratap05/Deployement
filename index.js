@@ -5,7 +5,9 @@ const mongoose = require("mongoose");
 
 main().catch((err) => console.log(err));
 async function main() {
-  await mongoose.connect("mongodb://localhost:27017/rented-bikes");
+  await mongoose.connect(
+    "mongodb+srv://ravirajput:ravi@cluster0.1jmhhdx.mongodb.net/?retryWrites=true"
+  );
   console.log("DB Connected");
 }
 
